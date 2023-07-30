@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+@import './block/header';
+@import './block/author';
+@import './block/about';
+@import './block/trusted';
+@import './block/callout';
+@import './block/what';
+@import './block/chapter';
+@import './block/testimonials';
+@import './block/blog';
+@import './block/callout-subscribe';
+@import './block/footer';

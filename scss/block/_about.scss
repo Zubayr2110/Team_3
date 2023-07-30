@@ -1,0 +1,123 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 990px;
+    margin: 0 auto;
+    .about__container{
+        display: flex;
+        align-items: center;
+        width: 1299.77px;
+        height: 690px;
+        .about__container-text{
+            margin-left: 142px;
+            width: 567.7px;
+            height: 568px;
+            .about__container-text-h3{
+                color: #1B3764;
+                font-family: 'Cardo';
+                font-size: 45px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                letter-spacing: -0.9px;
+            }
+            .about__container-text-line{
+                margin-top: 22px;
+                width: 55px;
+                height: 3px;
+                background: #FFCA42;
+            }
+            .about__container-text-lorem{
+                padding-top: 22px;
+                color: #969AA0;
+                font-family: 'Inter';
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 180%;
+                letter-spacing: -0.19px;
+            }
+            .about__container-text-counter{
+                display: flex;
+                align-items: center;
+                margin-top: 44px;
+                width: 100%;
+                height: 97px;
+                .about__container-text-counter-1{
+                    width: 139px;
+                    height: 97px;
+                    .about__container-text-counter-1-number{
+                        color: #1B3764;
+                        font-family: 'Cardo';
+                        font-size: 55px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 120%;
+                        letter-spacing: -1.1px;
+                    }
+                    .about__container-text-counter-1-text{
+                        color: #969AA0;
+                        font-family: 'Inter';
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 170%;
+                        letter-spacing: -0.18px;
+                    }
+                }
+                .about__container-text-counter-line{
+                    margin-left: 32px;
+                    width: 1px;
+                    height: 88px;
+                    background: #FFCA42;
+                }
+            }
+            .about__container-text-details{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+                width: 477px;
+                height: 160px;
+                background: #1B3764;
+                .about__container-text-details-container{
+                    display: flex;
+                    align-items: center;
+                    width: 441px;
+                    height: 130px;
+                    .about__container-text-details-container-img{
+                        width: 130px;
+                        height: 130px;
+                        background-image: url(/images/Image\ \(1\).svg);
+                    }
+                    .about__container-text-details-container-text{
+                        margin-left: 37px;
+                        width: 274px;
+                        height: 101px;
+                        .about__container-text-details-container-text-h4{
+                            color: #FFCA42;
+                            font-family: 'Cardo';
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 120%;
+                            letter-spacing: -0.44px;
+                        }
+                        .about__container-text-details-container-text-p{
+                            padding-top: 7px;
+                            color: #B4C7E7;
+                            font-family: 'Inter';
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 180%;
+                            letter-spacing: -0.19px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
