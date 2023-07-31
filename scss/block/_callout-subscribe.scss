@@ -1,0 +1,80 @@
+.callout__subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 310px;
+    margin-top: 161px;
+    width: 1300px;
+    height: 506px;
+    background: #FFCA42;
+    margin: 0 auto;
+    .callout__subscribe-content{
+        text-align: center;
+        width: 840px;
+        height: 264px;
+        .callout__subscribe-content-h2{
+            color: #1B3764;
+            text-align: center;
+            font-family: 'Cardo';
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            letter-spacing: -0.9px;
+        }
+        .callout__subscribe-content-line{
+            margin-top: 17px;
+            margin-left: 400px;
+            width: 55px;
+            height: 3px;
+            background: #1B3764;
+        }
+        .callout__subscribe-content-p{
+            color: #1B3764;
+            text-align: center;
+            font-family: 'Inter';
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 180%;
+            letter-spacing: -0.19px;
+        }
+        .callout-form{
+            margin-top: 39px;
+            display: flex;
+            width: 840px;
+            height: 65px;
+            .callout-input{
+                padding-left: 20px;
+                width: 529px;
+                height: 65px;
+                border: 1px solid white;
+                color: #969AA0;
+                font-family: 'Inter';
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 180%; 
+                letter-spacing: -0.17px;
+            }
+            .callout-button{
+                margin-left: 10px;
+                width: 300px;
+                height: 65px;
+                background: #1B3764;
+                color: #FFF;
+                text-align: center;
+                font-family: 'Cardo';
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 125%;
+                letter-spacing: 0.38px;
+            }
+            .callout-button:hover{
+                background: #365992;
+            }
+        }
+        
+    }
+}

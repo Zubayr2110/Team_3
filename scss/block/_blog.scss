@@ -1,0 +1,94 @@
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 1016px;
+    margin: 0  auto;
+    .blog__content{
+        text-align: center;
+        width: 1300px;
+        height: 726px;
+        .blog__content-h2{
+            color: #1B3764;
+            font-family: 'Cardo';
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            letter-spacing: -0.9px;
+        }
+        .blog__content-line{
+            margin-top: 20px;
+            margin-left: 625px;
+            width: 55px;
+            height: 3px;
+            background: #FFCA42;
+        }
+        .blog__content-container{
+            display: flex;
+            margin-top: 50px;
+            width: 1300px;
+            height: 600px;
+            .blog__content-container-1{
+                width: 410px;
+                height: 600px;
+                .blog__content-container-1-1{
+                    text-align: left;
+                    margin: 27px 32px;
+                    width: 347px;
+                    height: 220px;
+                    .blog__content-container-1-1-h4{
+                        color: #1B3764;
+                        font-family: 'Cardo';
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 120%;
+                        letter-spacing: -0.48px;
+                    }
+                    .blog__content-container-1-1-p{
+                        color: #969AA0;
+                        font-family: 'Inter';
+                        font-size: 19px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 180%;
+                        letter-spacing: -0.19px;
+                    }
+                    .blog__content-container-1-1-div{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 25px;
+                        width: 347px;
+                        height: 26px;
+                        .blog__content-container-1-1-div-p1{
+                            color: #1B3764;
+                            text-align: center;
+                            font-family: 'Cardo';
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 125%;
+                            letter-spacing: 0.36px;
+                            border-bottom: 1px solid;
+                        }
+                        .blog__content-container-1-1-div-p2{
+                            padding-left: 87px;
+                            color: #1B3764;
+                            text-align: right;
+                            font-family: 'Inter';
+                            font-size: 17px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 125%;
+                        }
+                    }
+                }
+            }
+            .blog__content-container-1:hover{
+                box-shadow: 5px 10px 10px 20px rgb(195, 195, 195);
+            }
+        }
+    }
+}
